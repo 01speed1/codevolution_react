@@ -7,6 +7,7 @@ import Hello from './components/Hello'
 import Welcome from './components/Welcome'
 import Message from './components/Message';
 import Counter from './components/Counter';
+import Hi from './components/Hi';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       </Welcome> */}
 
       {/* <Message></Message> */}
-      <Counter></Counter>
+      {/* <Counter></Counter> */}
+      <Hi></Hi>
     </div>
   );
 }
