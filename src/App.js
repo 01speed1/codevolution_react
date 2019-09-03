@@ -5,11 +5,14 @@ import './App.css';
 import Greet from './components/Greet'
 import Hello from './components/Hello'
 import Welcome from './components/Welcome'
+import Message from './components/Message';
+import Counter from './components/Counter';
+
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Oscar">
+{/*       <Greet name="Oscar">
         <p> The child </p>
       </Greet>
       <Greet name="supabuton">
@@ -20,7 +23,10 @@ function App() {
 
       <Welcome name="Natasha">
         <p> BlackWidow </p>
-      </Welcome>
+      </Welcome> */}
+
+      {/* <Message></Message> */}
+      <Counter></Counter>
     </div>
   );
 }
