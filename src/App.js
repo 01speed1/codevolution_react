@@ -8,27 +8,24 @@ import Welcome from './components/Welcome'
 import Message from './components/Message';
 import Counter from './components/Counter';
 import Hi from './components/Hi';
+import FunctionClick from './components/FunctionClick';
 
 
 function App() {
   return (
     <div className="App">
-{/*       <Greet name="Oscar">
-        <p> The child </p>
-      </Greet>
-      <Greet name="supabuton">
-        <button> Text </button>
-      </Greet>
-      <Greet name="Guzman" />
-      <Hello />
+      <FunctionClick></FunctionClick>
 
-      <Welcome name="Natasha">
+      {/* <Greet name="Oscar" heroName="Paps" > </Greet> */}
+      {/* <Hello /> */}
+
+      {/* <Welcome name="Natasha">
         <p> BlackWidow </p>
-      </Welcome> */}
+      </Welcome>} */}
 
       {/* <Message></Message> */}
       {/* <Counter></Counter> */}
-      <Hi></Hi>
+      {/* <Hi></Hi> */}
     </div>
   );
 }

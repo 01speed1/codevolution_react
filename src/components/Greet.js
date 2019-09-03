@@ -1,12 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Greet = (props) => {
-  console.log(props)
-  return (
-    <div>
-    <h1> {props.name} </h1>
-    { props.children }
-    </div>
-    )}
+class Greet extends Component {
+
+  render(){
+    const { name, heroName } = this.props
+
+    return ( <h1>
+      Welcome { name } A.K.A. { heroName }
+    </h1> )
+  }
+
+}
 
 export default Greet
